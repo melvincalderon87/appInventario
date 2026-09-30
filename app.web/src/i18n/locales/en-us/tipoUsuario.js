@@ -1,0 +1,26 @@
+const tipoUsuario = {
+  userTypeListTitle: "User types",
+  userTypeListCount: "{{count}} record(s)",
+  userTypeListLoadError: "Unable to get the user type list.",
+  loadingUserTypes: "Loading user types...",
+  userTypeCode: "User type code",
+  userTypeDescription: "Description",
+  searchUserTypes: "Search user types",
+  noUserTypesFound: "No user types found.",
+  userTypeAddTitle: "Add user type",
+  userTypeViewTitle: "View user type",
+  userTypeEditTitle: "Edit user type",
+  userTypeDeleteTitle: "Delete user type",
+  userTypeLogTitle: "User type log",
+  userTypeLoadError: "Unable to get the user type.",
+  loadingUserType: "Loading user type...",
+  userTypeAdded: "User type added successfully.",
+  userTypeSaved: "User type saved successfully.",
+  userTypeDeleted: "User type deleted successfully.",
+  userTypeSaveError: "Unable to save the user type.",
+  userTypeDescriptionRequired: "User type description is required.",
+  deleteUserTypeConfirmation: "Confirm whether you want to delete user type {{userType}}.",
+  userTypeLogLoadError: "Unable to get the user type log.",
+};
+
+export default tipoUsuario;

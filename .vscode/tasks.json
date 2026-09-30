@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build: backend",
+      "type": "shell",
+      "command": "dotnet",
+      "args": ["build", "app.api/app.csproj"],
+      "group": "build",
+      "problemMatcher": ["$msCompile"]
+    },
+    {
+      "label": "appInventario-backend",
+      "type": "shell",
+      "command": "dotnet",
+      "args": ["run", "--project", "app.api/app.csproj"],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "detail": "Ejecuta solo el backend ASP.NET Core."
+    },
+    {
+      "label": "install: frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": ["install"],
+      "options": {
+        "cwd": "${workspaceFolder}/app.web"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "build: frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "build"],
+      "options": {
+        "cwd": "${workspaceFolder}/app.web"
+      },
+      "group": "build",
+      "dependsOn": "install: frontend",
+      "problemMatcher": []
+    },
+    {
+      "label": "appInventario-Frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "dev", "--", "--host"],
+      "options": {
+        "cwd": "${workspaceFolder}/app.web"
+      },
+      "isBackground": true,
+      "group": "test",
+      "problemMatcher": [],
+      "detail": "Ejecuta solo el frontend React con Vite."
+    },
+    {
+      "label": "build: backend + frontend",
+      "dependsOn": ["build: backend", "build: frontend"],
+      "dependsOrder": "parallel",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "run: todo",
+      "dependsOn": ["appInventario-backend", "appInventario-Frontend"],
+      "dependsOrder": "parallel",
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

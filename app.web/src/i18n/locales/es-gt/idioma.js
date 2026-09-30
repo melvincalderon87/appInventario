@@ -1,0 +1,28 @@
+const idioma = {
+  idiomaListTitle: "Idiomas",
+  idiomaListCount: "{{count}} registro(s)",
+  idiomaListLoadError: "No fue posible obtener el listado de idiomas.",
+  loadingIdiomas: "Cargando idiomas...",
+  idiomaCode: "Codigo de idioma",
+  idiomaCodeValue: "Clave de idioma",
+  idiomaDescription: "Descripcion",
+  searchIdiomas: "Buscar idiomas",
+  noIdiomasFound: "No se encontraron idiomas.",
+  idiomaAddTitle: "Agregar idioma",
+  idiomaViewTitle: "Visualizar idioma",
+  idiomaEditTitle: "Editar idioma",
+  idiomaDeleteTitle: "Eliminar idioma",
+  idiomaLogTitle: "Log de idioma",
+  idiomaLoadError: "No fue posible obtener el idioma.",
+  loadingIdioma: "Cargando idioma...",
+  idiomaAdded: "Idioma agregado correctamente.",
+  idiomaSaved: "Idioma guardado correctamente.",
+  idiomaDeleted: "Idioma eliminado correctamente.",
+  idiomaSaveError: "No fue posible guardar el idioma.",
+  languageCodeRequired: "La clave del idioma es requerida.",
+  idiomaDescriptionRequired: "La descripcion del idioma es requerida.",
+  deleteIdiomaConfirmation: "Confirme si desea eliminar el idioma {{language}}.",
+  idiomaLogLoadError: "No fue posible obtener el log del idioma.",
+};
+
+export default idioma;

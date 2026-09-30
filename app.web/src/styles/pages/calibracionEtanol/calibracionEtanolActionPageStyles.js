@@ -1,0 +1,4 @@
+export {
+  useCapacidadVolumetricaTanqueActionPageStyles as useCalibracionEtanolActionPageStyles,
+  getCapacidadVolumetricaTanqueActionPageThemeStyles as getCalibracionEtanolActionPageThemeStyles,
+} from "../capacidadVolumetricaTanque/capacidadVolumetricaTanqueActionPageStyles";

@@ -1,0 +1,28 @@
+const usuarioPreferencia = {
+  userPreferenceTitle: "User Preference",
+  userPreferenceListTitle: "User Preference",
+  userPreferenceListCount: "{{count}} record(s)",
+  userPreferenceListLoadError: "Unable to get user preference.",
+  userCodeRequired: "User code is required.",
+  searchUserPreferences: "Search user preferences",
+  noUserPreferencesFound: "No user preferences found.",
+  loadingUserPreference: "Loading user preference...",
+  userPreferenceLoadError: "Unable to get user preference.",
+  userPreferenceLanguageRequired: "Language is required.",
+  userPreferenceThemeRequired: "Theme is required.",
+  userPreferenceAddTitle: "Add user preference",
+  userPreferenceViewTitle: "View user preference",
+  userPreferenceEditTitle: "Edit user preference",
+  userPreferenceDeleteTitle: "Delete user preference",
+  deleteUserPreferenceConfirmation: "Please confirm deletion of the preference for {{user}}.",
+  userPreferenceAdded: "User preference added successfully.",
+  userPreferenceSaved: "User preference saved successfully.",
+  userPreferenceDeleted: "User preference deleted successfully.",
+  userPreferenceSaveError: "Unable to save user preference.",
+  userPreferenceLogTitle: "User preference log",
+  userPreferenceLogLoadError: "Unable to get the user preference log.",
+  userPreferenceLanguage: "Language",
+  userPreferenceTheme: "Theme",
+};
+
+export default usuarioPreferencia;

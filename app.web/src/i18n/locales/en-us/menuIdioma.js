@@ -1,0 +1,26 @@
+const menuIdioma = {
+  menuIdiomaListTitle: "Menu translations",
+  menuIdiomaListCount: "{{count}} record(s)",
+  menuIdiomaListLoadError: "Unable to load the menu translation list.",
+  loadingMenuIdiomas: "Loading menu translations...",
+  menuIdiomaLoadError: "Unable to load the menu translation.",
+  loadingMenuIdiomaItem: "Loading menu translation...",
+  searchMenuIdiomas: "Search menu translations",
+  noMenuIdiomasFound: "No menu translations found.",
+  menuIdiomaAddTitle: "Add menu translation",
+  menuIdiomaViewTitle: "View menu translation",
+  menuIdiomaEditTitle: "Edit menu translation",
+  menuIdiomaDeleteTitle: "Delete menu translation",
+  menuIdiomaLogTitle: "Menu translation log",
+  menuIdiomaDescriptionRequired: "Description is required.",
+  menuIdiomaDescription: "Description",
+  menuMenuRequired: "The menu is required.",
+  menuIdiomaAdded: "Menu translation added successfully.",
+  menuIdiomaSaved: "Menu translation saved successfully.",
+  menuIdiomaDeleted: "Menu translation deleted successfully.",
+  menuIdiomaSaveError: "Unable to save the menu translation.",
+  deleteMenuIdiomaConfirmation: "Confirm if you want to delete menu translation {{menu}}.",
+  menuIdiomaLogLoadError: "Unable to load the menu translation log.",
+};
+
+export default menuIdioma;

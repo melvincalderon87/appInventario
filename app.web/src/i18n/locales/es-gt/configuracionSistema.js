@@ -1,0 +1,31 @@
+const configuracionSistema = {
+  systemConfigurationTitle: "Configuracion del sistema",
+  systemConfigurationCompanyTab: "Datos Empresa",
+  systemConfigurationBackgroundTab: "Fondo",
+  systemConfigurationCommercialName: "Nombre comercial",
+  systemConfigurationFiscalName: "Nombre fiscal",
+  systemConfigurationNit: "NIT",
+  systemConfigurationAddress: "Direccion",
+  systemConfigurationPhone: "Telefono",
+  systemConfigurationWebsite: "Pagina web",
+  systemConfigurationLogo: "Logo",
+  systemConfigurationLogoFile: "Archivo de logo",
+  systemConfigurationNoLogo: "Sin logo configurado.",
+  systemConfigurationLogoInvalid: "El logo debe ser una imagen JPEG o PNG de maximo 10 MB.",
+  systemConfigurationBackgroundInvalid: "El fondo debe ser una imagen JPEG o PNG de maximo 10 MB.",
+  systemConfigurationBackground: "Fondo",
+  systemConfigurationBackgroundFile: "Archivo de fondo",
+  systemConfigurationBackgroundSize: "Tamano",
+  systemConfigurationSelectBackground: "Seleccionar fondo",
+  systemConfigurationNoBackground: "Sin fondo configurado.",
+  loadingSystemConfiguration: "Cargando configuracion del sistema...",
+  systemConfigurationLoadError: "No fue posible obtener la configuracion del sistema.",
+  systemConfigurationSaved: "Configuracion del sistema guardada correctamente.",
+  systemConfigurationSaveError: "No fue posible guardar la configuracion del sistema.",
+  systemConfigurationBackgroundTypeError:
+    "Solo se permiten imagenes JPEG con extension .jpg, .jpeg, .jpe o .jfif.",
+  systemConfigurationBackgroundSizeError: "La imagen de fondo debe pesar maximo 10 MB.",
+  systemConfigurationBackgroundReadError: "No fue posible leer la imagen de fondo.",
+};
+
+export default configuracionSistema;

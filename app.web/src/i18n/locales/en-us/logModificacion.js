@@ -1,0 +1,27 @@
+const logModificacion = {
+  modificationLogTitle: "Modification log",
+  modificationLogCount: "{{count}} records found",
+  modificationLogLoadError: "Unable to load the modification log.",
+  loadingModificationLog: "Loading modification log...",
+  noModificationLogFound: "No log records to show.",
+  module: "Module",
+  action: "Action",
+  user: "User",
+  records: "Records",
+  startDate: "Start date",
+  endDate: "End date",
+  invalidStartDateFilter: "Start date must use {{format}} format.",
+  invalidEndDateFilter: "End date must use {{format}} format.",
+  search: "Search",
+  clear: "Clear",
+  all: "All",
+  loginAction: "Login",
+  logoutAction: "Sign out",
+  exportExcel: "Export Excel",
+  refresh: "Refresh",
+  date: "Date",
+  key: "Key",
+  description: "Description",
+};
+
+export default logModificacion;

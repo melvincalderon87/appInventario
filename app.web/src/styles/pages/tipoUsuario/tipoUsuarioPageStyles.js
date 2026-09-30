@@ -1,0 +1,263 @@
+import { makeStyles } from "@/components/ui/app-shadcn";
+
+export const useTipoUsuarioStyles = makeStyles({
+  root: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    gap: "16px",
+  },
+  header: {
+    display: "flex",
+    alignItems: "flex-end",
+    justifyContent: "space-between",
+    gap: "12px",
+  },
+  title: {
+    margin: 0,
+    color: "var(--app-card-title, var(--app-user-value))",
+  },
+  subtitle: {
+    display: "block",
+    marginTop: "4px",
+    color: "var(--app-user-label)",
+  },
+  searchBar: {
+    width: "100%",
+    borderRadius: "8px",
+    padding: "10px",
+    boxSizing: "border-box",
+  },
+  searchInput: {
+    width: "100%",
+  },
+  responsiveGrid: {
+    width: "100%",
+    maxWidth: "100%",
+    overflowX: "auto",
+  },
+  permissionLogCell: {
+    textAlign: "center",
+    minWidth: "58px",
+  },
+  listSurface: {
+    width: "100%",
+    maxWidth: "100%",
+    minWidth: 0,
+  },
+  loading: {
+    minHeight: "220px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  empty: {
+    display: "block",
+    padding: "28px 0",
+    textAlign: "center",
+    color: "var(--app-user-label)",
+  },
+  cardGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
+    gap: "12px",
+  },
+  userCard: {
+    minHeight: "158px",
+    borderRadius: "8px",
+    padding: "14px",
+    boxSizing: "border-box",
+    display: "flex",
+    flexDirection: "column",
+    gap: "14px",
+  },
+  cardHeader: {
+    display: "flex",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    gap: "10px",
+  },
+  identity: {
+    minWidth: 0,
+    display: "flex",
+    flexDirection: "column",
+    gap: "10px",
+  },
+  userCode: {
+    display: "block",
+    color: "var(--app-card-title, var(--app-user-value))",
+    overflowWrap: "anywhere",
+  },
+  userName: {
+    display: "block",
+    color: "var(--app-card-fg, var(--app-user-value))",
+    overflowWrap: "anywhere",
+  },
+  cardField: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "4px",
+    minWidth: 0,
+  },
+  statusField: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    gap: "6px",
+    flexShrink: 0,
+  },
+  metaLabel: {
+    color: "var(--app-user-label)",
+    fontSize: "12px",
+  },
+  metaValue: {
+    color: "var(--app-card-fg, var(--app-user-value))",
+    overflowWrap: "anywhere",
+  },
+  actions: {
+    display: "flex",
+    gap: "4px",
+    alignItems: "center",
+    flexWrap: "wrap",
+    marginTop: "auto",
+  },
+  tableActions: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "6px",
+    flexWrap: "nowrap",
+    width: "fit-content",
+    maxWidth: "100%",
+    margin: "0 auto",
+    whiteSpace: "nowrap",
+    textAlign: "center",
+    justifySelf: "center",
+  },
+  actionCell: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    minWidth: 0,
+  },
+  tableActionHeader: {
+    display: "inline-flex",
+    justifyContent: "center",
+    width: "100%",
+    textAlign: "center",
+    whiteSpace: "normal",
+    lineHeight: "1.05",
+  },
+  tableCellNoWrap: {
+    whiteSpace: "nowrap",
+  },
+  tableCellExpanded: {
+    display: "block",
+    minWidth: 0,
+    width: "100%",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+  tableHeaderLabel: {
+    display: "block",
+    flex: "1 1 auto",
+    minWidth: 0,
+    maxWidth: "100%",
+    overflow: "visible",
+    textOverflow: "clip",
+    whiteSpace: "normal",
+    overflowWrap: "break-word",
+    wordBreak: "normal",
+    lineHeight: "1.05",
+  },
+  formSurface: {
+    width: "100%",
+    borderRadius: "8px",
+    padding: "20px",
+    boxSizing: "border-box",
+  },
+  centeredFormWrap: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+  },
+  passwordFormSurface: {
+    width: "100%",
+    maxWidth: "520px",
+    borderRadius: "8px",
+    padding: "22px",
+    boxSizing: "border-box",
+    display: "flex",
+    flexDirection: "column",
+    gap: "20px",
+  },
+  passwordUserInfo: {
+    display: "grid",
+    gridTemplateColumns: "1fr",
+    gap: "12px",
+    paddingBottom: "18px",
+    borderBottom: "1px solid var(--app-card-border)",
+  },
+  verticalForm: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "16px",
+  },
+  formGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(2, minmax(220px, 1fr))",
+    gap: "16px",
+    "@media (max-width: 720px)": {
+      gridTemplateColumns: "1fr",
+    },
+  },
+  toolbar: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "12px",
+    flexWrap: "wrap",
+  },
+  buttonRow: {
+    display: "flex",
+    justifyContent: "flex-end",
+    gap: "10px",
+    marginTop: "18px",
+    flexWrap: "wrap",
+  },
+  dangerText: {
+    color: "#b10e1c",
+  },
+  masterCell: {
+    display: "inline-flex",
+    alignItems: "center",
+    gap: "4px",
+  },
+  masterArrowLink: {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "16px",
+    height: "16px",
+    textDecoration: "none",
+    fontWeight: 600,
+  },
+  masterArrowImage: {
+    width: "14px",
+    height: "14px",
+    display: "block",
+  },
+});
+
+export function getTipoUsuarioThemeStyles() {
+  return {
+    surface: {
+      backgroundColor: "var(--app-card-bg)",
+      border: "1px solid var(--app-card-border)",
+      boxShadow: "var(--app-card-shadow)",
+    },
+  };
+}

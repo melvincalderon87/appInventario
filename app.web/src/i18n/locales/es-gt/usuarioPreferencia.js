@@ -1,0 +1,28 @@
+const usuarioPreferencia = {
+  userPreferenceTitle: "Preferencia de usuario",
+  userPreferenceListTitle: "Preferencia de usuario",
+  userPreferenceListCount: "{{count}} registro(s)",
+  userPreferenceListLoadError: "No fue posible obtener la preferencia del usuario.",
+  userCodeRequired: "El codigo del usuario es requerido.",
+  searchUserPreferences: "Buscar preferencias de usuario",
+  noUserPreferencesFound: "No se encontraron preferencias de usuario.",
+  loadingUserPreference: "Cargando preferencia de usuario...",
+  userPreferenceLoadError: "No fue posible obtener la preferencia del usuario.",
+  userPreferenceLanguageRequired: "El idioma es requerido.",
+  userPreferenceThemeRequired: "El tema es requerido.",
+  userPreferenceAddTitle: "Agregar preferencia de usuario",
+  userPreferenceViewTitle: "Visualizar preferencia de usuario",
+  userPreferenceEditTitle: "Editar preferencia de usuario",
+  userPreferenceDeleteTitle: "Eliminar preferencia de usuario",
+  deleteUserPreferenceConfirmation: "Confirme si desea eliminar la preferencia para {{user}}.",
+  userPreferenceAdded: "Preferencia de usuario agregada correctamente.",
+  userPreferenceSaved: "Preferencia de usuario guardada correctamente.",
+  userPreferenceDeleted: "Preferencia de usuario eliminada correctamente.",
+  userPreferenceSaveError: "No fue posible guardar la preferencia de usuario.",
+  userPreferenceLogTitle: "Log de preferencia de usuario",
+  userPreferenceLogLoadError: "No fue posible obtener el log de la preferencia.",
+  userPreferenceLanguage: "Idioma",
+  userPreferenceTheme: "Tema",
+};
+
+export default usuarioPreferencia;

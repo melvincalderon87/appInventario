@@ -1,0 +1,28 @@
+const idioma = {
+  idiomaListTitle: "Languages",
+  idiomaListCount: "{{count}} record(s)",
+  idiomaListLoadError: "Unable to get the language list.",
+  loadingIdiomas: "Loading languages...",
+  idiomaCode: "Language code",
+  idiomaCodeValue: "Language key",
+  idiomaDescription: "Description",
+  searchIdiomas: "Search languages",
+  noIdiomasFound: "No languages found.",
+  idiomaAddTitle: "Add language",
+  idiomaViewTitle: "View language",
+  idiomaEditTitle: "Edit language",
+  idiomaDeleteTitle: "Delete language",
+  idiomaLogTitle: "Language log",
+  idiomaLoadError: "Unable to get the language.",
+  loadingIdioma: "Loading language...",
+  idiomaAdded: "Language added successfully.",
+  idiomaSaved: "Language saved successfully.",
+  idiomaDeleted: "Language deleted successfully.",
+  idiomaSaveError: "Unable to save the language.",
+  languageCodeRequired: "Language key is required.",
+  idiomaDescriptionRequired: "Language description is required.",
+  deleteIdiomaConfirmation: "Confirm whether you want to delete language {{language}}.",
+  idiomaLogLoadError: "Unable to get language log.",
+};
+
+export default idioma;

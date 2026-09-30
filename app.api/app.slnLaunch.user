@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "app.api\\app.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "app.web\\",
+        "Action": "Start",
+        "DebugTarget": "Servidor web (Google Chrome)"
+      }
+    ]
+  }
+]

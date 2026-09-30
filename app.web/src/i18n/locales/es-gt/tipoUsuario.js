@@ -1,0 +1,26 @@
+const tipoUsuario = {
+  userTypeListTitle: "Tipos de usuario",
+  userTypeListCount: "{{count}} registro(s)",
+  userTypeListLoadError: "No fue posible obtener el listado de tipos de usuario.",
+  loadingUserTypes: "Cargando tipos de usuario...",
+  userTypeCode: "Codigo de tipo de usuario",
+  userTypeDescription: "Descripcion",
+  searchUserTypes: "Buscar tipos de usuario",
+  noUserTypesFound: "No se encontraron tipos de usuario.",
+  userTypeAddTitle: "Agregar tipo de usuario",
+  userTypeViewTitle: "Visualizar tipo de usuario",
+  userTypeEditTitle: "Editar tipo de usuario",
+  userTypeDeleteTitle: "Eliminar tipo de usuario",
+  userTypeLogTitle: "Log de tipo de usuario",
+  userTypeLoadError: "No fue posible obtener el tipo de usuario.",
+  loadingUserType: "Cargando tipo de usuario...",
+  userTypeAdded: "Tipo de usuario agregado correctamente.",
+  userTypeSaved: "Tipo de usuario guardado correctamente.",
+  userTypeDeleted: "Tipo de usuario eliminado correctamente.",
+  userTypeSaveError: "No fue posible guardar el tipo de usuario.",
+  userTypeDescriptionRequired: "La descripcion del tipo de usuario es requerida.",
+  deleteUserTypeConfirmation: "Confirme si desea eliminar el tipo de usuario {{userType}}.",
+  userTypeLogLoadError: "No fue posible obtener el log del tipo de usuario.",
+};
+
+export default tipoUsuario;

@@ -1,0 +1,31 @@
+export interface CalibracionAditivoDTO {
+  idCalibracionAditivo?: string;
+  codCalibracionAditivo?: number;
+  fecha: string;
+  codBahia: string;
+  idBahia?: string;
+  bahia?: string;
+  codProducto: number;
+  idProducto?: string;
+  producto?: string;
+  codPersonal: number;
+  idPersonal?: string;
+  personal?: string;
+  codCompaniaInspeccion: number;
+  idCompaniaInspeccion?: string;
+  companiaInspeccion?: string;
+  fechaCalibracion: string;
+  proximaFecha?: string;
+  estatus?: boolean;
+  version?: number;
+  codUsuarioCreacion?: string;
+  idUsuarioCreacion?: string;
+  fechaCreacion?: string;
+  codUsuarioActualizacion?: string;
+  idUsuarioActualizacion?: string;
+  fechaActualizacion?: string;
+  codUsuarioEliminacion?: string;
+  idUsuarioEliminacion?: string;
+  fechaEliminacion?: string;
+  accionLog?: string;
+}

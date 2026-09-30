@@ -1,0 +1,26 @@
+const menuIdioma = {
+  menuIdiomaListTitle: "Traducciones de menu",
+  menuIdiomaListCount: "{{count}} registro(s)",
+  menuIdiomaListLoadError: "No fue posible obtener el listado de traducciones del menu.",
+  loadingMenuIdiomas: "Cargando traducciones de menu...",
+  menuIdiomaLoadError: "No fue posible obtener la traduccion del menu.",
+  loadingMenuIdiomaItem: "Cargando traduccion de menu...",
+  searchMenuIdiomas: "Buscar traducciones de menu",
+  noMenuIdiomasFound: "No se encontraron traducciones de menu.",
+  menuIdiomaAddTitle: "Agregar traduccion de menu",
+  menuIdiomaViewTitle: "Visualizar traduccion de menu",
+  menuIdiomaEditTitle: "Editar traduccion de menu",
+  menuIdiomaDeleteTitle: "Eliminar traduccion de menu",
+  menuIdiomaLogTitle: "Log de traduccion de menu",
+  menuIdiomaDescriptionRequired: "La descripcion es requerida.",
+  menuIdiomaDescription: "Descripcion",
+  menuMenuRequired: "El menu es requerido.",
+  menuIdiomaAdded: "Traduccion de menu agregada correctamente.",
+  menuIdiomaSaved: "Traduccion de menu guardada correctamente.",
+  menuIdiomaDeleted: "Traduccion de menu eliminada correctamente.",
+  menuIdiomaSaveError: "No fue posible guardar la traduccion del menu.",
+  deleteMenuIdiomaConfirmation: "Confirme si desea eliminar la traduccion del menu {{menu}}.",
+  menuIdiomaLogLoadError: "No fue posible obtener el log de la traduccion del menu.",
+};
+
+export default menuIdioma;

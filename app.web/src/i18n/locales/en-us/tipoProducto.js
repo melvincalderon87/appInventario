@@ -1,0 +1,32 @@
+const tipoProducto = {
+  productTypeListTitle: "Product types",
+  productTypeListCount: "{{count}} record(s)",
+  productTypeListLoadError: "Unable to get the product type list.",
+  loadingProductTypes: "Loading product types...",
+  productTypeCode: "Product type code",
+  productTypeDescription: "Description",
+  productTypeShortDescription: "Short description",
+  searchProductTypes: "Search product types",
+  noProductTypesFound: "No product types found.",
+  productTypeAddTitle: "Add product type",
+  productTypeViewTitle: "View product type",
+  productTypeEditTitle: "Edit product type",
+  productTypeDeleteTitle: "Delete product type",
+  productTypeLogTitle: "Product type log",
+  productTypeLoadError: "Unable to get the product type.",
+  loadingProductType: "Loading product type...",
+  productTypeAdded: "Product type added successfully.",
+  productTypeSaved: "Product type saved successfully.",
+  productTypeDeleted: "Product type deleted successfully.",
+  productTypeSaveError: "Unable to save the product type.",
+  productTypeCodeRequired: "Product type code is required.",
+  productTypeCodeMaxLength: "Product type code must be at most 20 characters.",
+  productTypeDescriptionRequired: "Product type description is required.",
+  productTypeShortDescriptionRequired: "Product type short description is required.",
+  productTypeShortDescriptionMaxLength:
+    "Product type short description must be at most 10 characters.",
+  deleteProductTypeConfirmation: "Confirm whether you want to delete product type {{productType}}.",
+  productTypeLogLoadError: "Unable to get the product type log.",
+};
+
+export default tipoProducto;

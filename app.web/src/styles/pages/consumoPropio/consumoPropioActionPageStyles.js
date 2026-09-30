@@ -1,0 +1,4 @@
+export {
+  useCapacidadVolumetricaTanqueActionPageStyles as useConsumoPropioActionPageStyles,
+  getCapacidadVolumetricaTanqueActionPageThemeStyles as getConsumoPropioActionPageThemeStyles,
+} from "../capacidadVolumetricaTanque/capacidadVolumetricaTanqueActionPageStyles";
