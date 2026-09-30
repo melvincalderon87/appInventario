@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app.csproj", "{4195E981-2360-7259-32C6-BB2CA129A715}"
 EndProject
+Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "app.database", "..\app.database\app.database.sqlproj", "{6B1B6A80-F482-499D-A480-31B088EE0B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{4195E981-2360-7259-32C6-BB2CA129A715}.Release|x64.Build.0 = Release|Any CPU
 		{4195E981-2360-7259-32C6-BB2CA129A715}.Release|x86.ActiveCfg = Release|Any CPU
 		{4195E981-2360-7259-32C6-BB2CA129A715}.Release|x86.Build.0 = Release|Any CPU
+		{6B1B6A80-F482-499D-A480-31B088EE0B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1B6A80-F482-499D-A480-31B088EE0B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1B6A80-F482-499D-A480-31B088EE0B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1B6A80-F482-499D-A480-31B088EE0B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4195E981-2360-7259-32C6-BB2CA129A715} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6B1B6A80-F482-499D-A480-31B088EE0B13} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F14ECE6-7574-4361-883A-8E682DF4DA5E}
